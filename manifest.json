@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "isai",
+  "short_name": "isai",
+  "description": "",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "permissions": [
+    "fileSystem"
+  ],
+  
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}
